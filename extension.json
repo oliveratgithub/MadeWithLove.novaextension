@@ -1,0 +1,9 @@
+{
+    "identifier": "oliveratgithub.love",
+    "name": "Made with love",
+    "organization": "Oliver Raduner",
+    "categories": ["clips"],
+    "description": "Various «made with love» HTML and CSS snippets.",
+    "bugs": "https://gist.github.com/oliveratgithub/7192c585ce6850692199036d46d3dade",
+    "version": "1.0.0"
+}
