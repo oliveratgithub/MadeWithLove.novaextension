@@ -9,6 +9,6 @@
     "repository": "https://github.com/oliveratgithub/MadeWithLove.novaextension",
     "bugs": "https://github.com/oliveratgithub/MadeWithLove.novaextension/issues",
     "funding": "https://github.com/sponsors/oliveratgithub",
-    "license": "GNU GPLv3",
-    "version": "1.0.1"
+    "license": "GNU LGPLv3",
+    "version": "2.0.0"
 }

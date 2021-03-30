@@ -3,12 +3,12 @@
     {
       "children" : [
         {
-          "content" : ".heart{color: #e25555;}\nMade with <span class=\"heart\">❤<\/span> in Switzerland",
-          "name" : "Made with love (CSS)"
+          "content" : ".heart{color: #e25555;}\n$WORKSPACE_NAME is made with <span class=\"heart\">❤<\/span> by $AUTHOR_NAME",
+          "name" : "CSS class"
         },
         {
-          "content" : "Made with <span style=\"color: #e25555;\">&#9829;<\/span> in Switzerland\nMade with <span style=\"color: #e25555;\">&hearts;<\/span> in Switzerland",
-          "name" : "Made with love (inline CSS)"
+          "content" : "$WORKSPACE_NAME is made with <span style=\"color: #e25555;\">&#9829;<\/span> by $AUTHOR_NAME\nMade with <span style=\"color: #e25555;\">&hearts;<\/span> by $AUTHOR_NAME",
+          "name" : "Inline CSS"
         }
       ],
       "name" : "CSS"
@@ -16,23 +16,32 @@
     {
       "children" : [
         {
-          "content" : "Made with ❤ in Switzerland",
-          "name" : "Made with love (Unicode)"
+          "content" : "$WORKSPACE_NAME is made with ❤ by $AUTHOR_NAME",
+          "name" : "Unicode text"
         },
         {
-          "content" : "Made with ❤️ in Switzerland\nMade with ♥️ in Switzerland",
-          "name" : "Made with love (Emoji)"
+          "content" : "$WORKSPACE_NAME is made with ❤️ by $AUTHOR_NAME\n$WORKSPACE_NAME is made with ♥️ by $AUTHOR_NAME",
+          "name" : "Emoji text"
         },
         {
-          "content" : "Made with <svg viewBox=\"0 0 1792 1792\" preserveAspectRatio=\"xMidYMid meet\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" style=\"height: 0.8rem;\"><path d=\"M896 1664q-26 0-44-18l-624-602q-10-8-27.5-26T145 952.5 77 855 23.5 734 0 596q0-220 127-344t351-124q62 0 126.5 21.5t120 58T820 276t76 68q36-36 76-68t95.5-68.5 120-58T1314 128q224 0 351 124t127 344q0 221-229 450l-623 600q-18 18-44 18z\" fill=\"#e25555\"><\/path><\/svg> in Switzerland",
-          "name" : "Made with love (inline SVG)"
+          "content" : "$WORKSPACE_NAME is made with <svg viewBox=\"0 0 1792 1792\" preserveAspectRatio=\"xMidYMid meet\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" style=\"height: 0.8rem;\"><path d=\"M896 1664q-26 0-44-18l-624-602q-10-8-27.5-26T145 952.5 77 855 23.5 734 0 596q0-220 127-344t351-124q62 0 126.5 21.5t120 58T820 276t76 68q36-36 76-68t95.5-68.5 120-58T1314 128q224 0 351 124t127 344q0 221-229 450l-623 600q-18 18-44 18z\" fill=\"#e25555\"><\/path><\/svg> by $AUTHOR_NAME",
+          "name" : "Inline SVG"
         },
         {
-          "content" : "<link rel=\"stylesheet\" type=\"text\/css\" href=\"https:\/\/code.ionicframework.com\/ionicons\/2.0.1\/css\/ionicons.min.css\" \/>\nMade with <i class=\"icon ion-heart\"><\/i> in Switzerland\nMade with <i class=\"icon ion-heart\" style=\"color: #e25555;\"><\/i> in Switzerland",
-          "name" : "Made with love (CDN icon set)"
+          "content" : "<link rel=\"stylesheet\" type=\"text\/css\" href=\"https:\/\/code.ionicframework.com\/ionicons\/2.0.1\/css\/ionicons.min.css\" \/>\n$WORKSPACE_NAME is made with <i class=\"icon ion-heart\"><\/i> by $AUTHOR_NAME\n$WORKSPACE_NAME is made with <i class=\"icon ion-heart\" style=\"color: #e25555;\"><\/i> by $AUTHOR_NAME",
+          "name" : "Icon set (CDN)"
         }
       ],
       "name" : "HTML"
+    },
+    {
+      "children" : [
+        {
+          "content" : "console.info(\n  '$WORKSPACE_NAME is made with %c❤ %cby $AUTHOR_NAME',\n  'color: #e25555', 'color: unset'\n);",
+          "name" : "console.info output"
+        }
+      ],
+      "name" : "JS"
     }
   ]
 }

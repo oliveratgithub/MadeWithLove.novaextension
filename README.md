@@ -1,13 +1,15 @@
-**Made with love ❤️** contains multiple little HTML and CSS snippets you can use to add a little bit of love to your projects.
+**Made with love ❤️** contains multiple little HTML, CSS, JavaScript snippets to add a little bit of love to your projects.
 
 ## Details
 Clips with inserting a "Made with love" snippet based on...
-* CSS class
-* Inline CSS
-* Text with Unicode Char or Emoji
-* HTML with or without colorization
-* Inline SVG
-* a full third-party icon pack
+
+- CSS class
+- Inline CSS
+- Text with Unicode Char or Emoji
+- HTML with or without colorisation
+- Inline SVG
+- JavaScript console log
+- A full third-party icon pack
 
 No default triggers or shortcuts are associated with each clips.
 
