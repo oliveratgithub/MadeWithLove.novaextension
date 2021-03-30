@@ -3,7 +3,7 @@
     {
       "children" : [
         {
-          "content" : ".heart{color: #e25555;}\n$WORKSPACE_NAME is made with <span class=\"heart\">❤<\/span> by $AUTHOR_NAME",
+          "content" : ".heart{color: #e25555;}\n$WORKSPACE_NAME is made with <span class=\"heart\">♥<\/span> by $AUTHOR_NAME",
           "name" : "CSS class"
         },
         {
@@ -16,7 +16,7 @@
     {
       "children" : [
         {
-          "content" : "$WORKSPACE_NAME is made with ❤ by $AUTHOR_NAME",
+          "content" : "$WORKSPACE_NAME is made with ♥ by $AUTHOR_NAME",
           "name" : "Unicode text"
         },
         {
@@ -37,7 +37,7 @@
     {
       "children" : [
         {
-          "content" : "console.info(\n  '$WORKSPACE_NAME is made with %c❤ %cby $AUTHOR_NAME',\n  'color: #e25555', 'color: unset'\n);",
+          "content" : "console.info(\n  '$WORKSPACE_NAME is made with %c♥ %cby $AUTHOR_NAME',\n  'color: #e25555', 'color: unset'\n);",
           "name" : "console.info output"
         }
       ],

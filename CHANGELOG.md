@@ -1,3 +1,7 @@
+## Version 2.1.0
+
+- Changed Unicode heart from ❤ ➔ ♥
+
 ## Version 2.0.0
 
 - Added new JavaScript clip
